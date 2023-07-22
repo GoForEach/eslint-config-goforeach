@@ -47,7 +47,7 @@ module.exports = {
         groups: [
           '/^@nestjs/',
           'module',
-          '/^@/',
+          "/^@\//",
           ['parent', 'sibling', 'index'],
         ],
         alphabetize: { order: 'asc', ignoreCase: true },
