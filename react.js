@@ -10,6 +10,7 @@ module.exports = {
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
+    'plugin:tailwindcss/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -22,17 +23,19 @@ module.exports = {
   plugins: [
     'react',
     'jsx-a11y',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'prettier',
+    'import-helpers',
+    'unused-imports',
   ],
   rules: {
     'prettier/prettier': ["error", {
-      'printWidth': 80,
-      'tabWidth': 2,
-      'singleQuote': true,
-      'trailingComma': 'all',
-      'arrowParens': 'always',
-      'semi': false,
-      'endOfLine': 'auto',
+      printWidth: 80,
+      tabWidth: 2,
+      singleQuote: true,
+      trailingComma: 'all',
+      arrowParens: 'always',
+      endOfLine: 'auto',
     }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
