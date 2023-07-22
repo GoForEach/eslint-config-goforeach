@@ -1,4 +1,4 @@
-# Rocketseat ESLint config
+# GoForEach ESLint config
 
 ## Whats included?
 
@@ -6,6 +6,9 @@
 - React plugin;
 - React Hooks plugin;
 - JSX a11y plugin;
+- Import Helpers plugin;
+- Unused Imports plugin;
+- TailwindCSS plugin;
 - Prettier;
 
 ## Setup
@@ -14,13 +17,13 @@
 
 Install dependencies:
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @goforeach/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
   "extends": [
-    "@rocketseat/eslint-config/next", 
+    "@goforeach/eslint-config/next", 
     "next/core-web-vitals"
   ]
 }
@@ -30,12 +33,12 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @goforeach/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@rocketseat/eslint-config/react"
+  "extends": "@goforeach/eslint-config/react"
 }
 ```
 
@@ -43,11 +46,24 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @goforeach/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@rocketseat/eslint-config/node"
+  "extends": "@goforeach/eslint-config/node"
+}
+```
+
+### NestJS
+
+Install dependencies:
+```
+npm i -D eslint @goforeach/eslint-config
+```
+Inside `.eslintrc.json`
+```
+{
+  "extends": "@goforeach/eslint-config/nest"
 }
 ```
