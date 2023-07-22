@@ -1,6 +1,6 @@
 {
   "name": "@goforeach/eslint-config",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "private": false,
   "description": "ESLint configuration used by GoForEach.",
   "main": "index.js",
