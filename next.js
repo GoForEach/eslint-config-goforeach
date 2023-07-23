@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: [
     'standard',
+    './rules/react',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
     'plugin:prettier/recommended',

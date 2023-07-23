@@ -7,6 +7,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    './rules/react',
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
