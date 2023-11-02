@@ -1,12 +1,12 @@
 {
-  "name": "@goforeach/eslint-config",
+  "name": "@d1d2-apps/eslint-config",
   "version": "3.0.1",
   "private": false,
-  "description": "ESLint configuration used by GoForEach.",
+  "description": "ESLint configuration used by D1D2-Apps.",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "goforeach/eslint-config-goforeach"
+    "url": "git+https://github.com/d1d2-apps/eslint-config-d1d2-apps.git"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",

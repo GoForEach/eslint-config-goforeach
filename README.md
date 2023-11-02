@@ -1,4 +1,4 @@
-# GoForEach ESLint config
+# D1D2 Apps ESLint config
 
 ## Whats included?
 
@@ -17,13 +17,13 @@
 
 Install dependencies:
 ```
-npm i -D eslint @goforeach/eslint-config
+npm i -D eslint @d1d2-apps/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
   "extends": [
-    "@goforeach/eslint-config/next", 
+    "@d1d2-apps/eslint-config/next", 
     "next/core-web-vitals"
   ]
 }
@@ -33,12 +33,12 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @goforeach/eslint-config
+npm i -D eslint @d1d2-apps/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@goforeach/eslint-config/react"
+  "extends": "@d1d2-apps/eslint-config/react"
 }
 ```
 
@@ -46,12 +46,12 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @goforeach/eslint-config
+npm i -D eslint @d1d2-apps/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@goforeach/eslint-config/node"
+  "extends": "@d1d2-apps/eslint-config/node"
 }
 ```
 
@@ -59,11 +59,11 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @goforeach/eslint-config
+npm i -D eslint @d1d2-apps/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@goforeach/eslint-config/nest"
+  "extends": "@d1d2-apps/eslint-config/nest"
 }
 ```
