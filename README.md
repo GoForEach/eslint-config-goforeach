@@ -11,14 +11,26 @@
 - TailwindCSS plugin;
 - Prettier;
 
-## Setup
+## Installation
 
-### React (with Next.js)
+### Install the dependencies
 
-Install dependencies:
 ```
 npm i -D eslint @d1d2-apps/eslint-config
 ```
+
+### Create .eslintignore file
+
+```
+# .eslintignore
+
+node_modules
+```
+
+## Usage
+
+### React (with Next.js)
+
 Inside `.eslintrc.json`
 ```
 {
@@ -31,10 +43,6 @@ Inside `.eslintrc.json`
 
 ### React (without Next.js)
 
-Install dependencies:
-```
-npm i -D eslint @d1d2-apps/eslint-config
-```
 Inside `.eslintrc.json`
 ```
 {
@@ -44,10 +52,6 @@ Inside `.eslintrc.json`
 
 ### Node.js
 
-Install dependencies:
-```
-npm i -D eslint @d1d2-apps/eslint-config
-```
 Inside `.eslintrc.json`
 ```
 {
@@ -57,10 +61,6 @@ Inside `.eslintrc.json`
 
 ### NestJS
 
-Install dependencies:
-```
-npm i -D eslint @d1d2-apps/eslint-config
-```
 Inside `.eslintrc.json`
 ```
 {
