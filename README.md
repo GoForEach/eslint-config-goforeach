@@ -1,4 +1,4 @@
-# D1D2 Apps ESLint config
+# Amazonicode ESLint config
 
 ## Whats included?
 
