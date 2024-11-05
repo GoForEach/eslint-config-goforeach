@@ -16,7 +16,7 @@
 ### Install the dependencies
 
 ```
-npm i -D eslint @d1d2-apps/eslint-config
+npm i -D eslint @amazonicode/eslint-config
 ```
 
 ### Create .eslintignore file
@@ -35,7 +35,7 @@ Inside `.eslintrc.json`
 ```
 {
   "extends": [
-    "@d1d2-apps/eslint-config/next", 
+    "@amazonicode/eslint-config/next", 
     "next/core-web-vitals"
   ]
 }
@@ -46,7 +46,7 @@ Inside `.eslintrc.json`
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@d1d2-apps/eslint-config/react"
+  "extends": "@amazonicode/eslint-config/react"
 }
 ```
 
@@ -55,7 +55,7 @@ Inside `.eslintrc.json`
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@d1d2-apps/eslint-config/node"
+  "extends": "@amazonicode/eslint-config/node"
 }
 ```
 
@@ -64,6 +64,6 @@ Inside `.eslintrc.json`
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@d1d2-apps/eslint-config/nest"
+  "extends": "@amazonicode/eslint-config/nest"
 }
 ```
