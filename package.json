@@ -1,6 +1,6 @@
 {
   "name": "@amazonicode/eslint-config",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "private": false,
   "description": "ESLint configuration used by Amazonicode.",
   "main": "index.js",
