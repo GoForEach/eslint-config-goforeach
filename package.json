@@ -1,12 +1,12 @@
 {
-  "name": "@d1d2-apps/eslint-config",
+  "name": "@amazonicode/eslint-config",
   "version": "3.0.1",
   "private": false,
-  "description": "ESLint configuration used by D1D2-Apps.",
+  "description": "ESLint configuration used by Amazonicode.",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "git+https://github.com/d1d2-apps/eslint-config-d1d2-apps.git"
+    "url": "git+https://github.com/amazonicode/eslint-config-amazonicode.git"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
@@ -34,5 +34,19 @@
     "eslint-plugin-tailwindcss": "^3.13.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^3.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/amazonicode/eslint-config-amazonicode/issues"
+  },
+  "homepage": "https://github.com/amazonicode/eslint-config-amazonicode#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amazonicode",
+    "eslint",
+    "prettier",
+    "config"
+  ],
+  "author": "Amazonicode"
 }
