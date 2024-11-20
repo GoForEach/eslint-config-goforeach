@@ -1,12 +1,12 @@
 {
-  "name": "@amazonicode/eslint-config",
+  "name": "@diegods-ferreira/eslint-config",
   "version": "3.1.0",
   "private": false,
-  "description": "ESLint configuration used by Amazonicode.",
+  "description": "ESLint configuration used by diegods-ferreira.",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "git+https://github.com/amazonicode/eslint-config-amazonicode.git"
+    "url": "git+https://github.com/diegods-ferreira/eslint-config.git"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
@@ -36,17 +36,17 @@
     "prettier": "^3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/amazonicode/eslint-config-amazonicode/issues"
+    "url": "https://github.com/diegods-ferreira/eslint-config/issues"
   },
-  "homepage": "https://github.com/amazonicode/eslint-config-amazonicode#readme",
+  "homepage": "https://github.com/diegods-ferreira/eslint-config#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "amazonicode",
+    "diegods-ferreira",
     "eslint",
     "prettier",
     "config"
   ],
-  "author": "Amazonicode"
+  "author": "diegods-ferreira"
 }

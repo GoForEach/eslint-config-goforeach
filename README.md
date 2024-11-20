@@ -1,4 +1,4 @@
-# Amazonicode ESLint config
+# diegods-ferreira ESLint config
 
 ## Whats included?
 
@@ -16,7 +16,7 @@
 ### Install the dependencies
 
 ```
-npm i -D eslint @amazonicode/eslint-config
+npm i -D eslint @diegods-ferreira/eslint-config
 ```
 
 ### Create .eslintignore file
@@ -35,7 +35,7 @@ Inside `.eslintrc.json`
 ```
 {
   "extends": [
-    "@amazonicode/eslint-config/next", 
+    "@diegods-ferreira/eslint-config/next", 
     "next/core-web-vitals"
   ]
 }
@@ -46,7 +46,7 @@ Inside `.eslintrc.json`
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@amazonicode/eslint-config/react"
+  "extends": "@diegods-ferreira/eslint-config/react"
 }
 ```
 
@@ -55,7 +55,7 @@ Inside `.eslintrc.json`
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@amazonicode/eslint-config/node"
+  "extends": "@diegods-ferreira/eslint-config/node"
 }
 ```
 
@@ -64,6 +64,6 @@ Inside `.eslintrc.json`
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@amazonicode/eslint-config/nest"
+  "extends": "@diegods-ferreira/eslint-config/nest"
 }
 ```
